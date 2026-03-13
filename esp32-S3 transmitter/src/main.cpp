@@ -28,6 +28,8 @@ const int statisLEDRedPin = 3;
 const int statisLEDGreenPin = 2;
 const int statisLEDBluePin = 1;
 
+bool lowBat == false
+
 void setStatisLED(const u8_t color[3]) {
   analogWrite(statisLEDRedPin, color[0]);
   analogWrite(statisLEDGreenPin, color[1]);
